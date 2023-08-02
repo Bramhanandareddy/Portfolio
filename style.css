@@ -1,0 +1,340 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.details p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+/* Your existing CSS styles go here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: orange;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+section.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightpink;
+}
+
+section.profile .profile-picture {
+    flex: 30%;
+}
+
+section.profile .profile-picture img {
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.profile .quotation {
+    flex: 50%;
+    padding: 20px;
+    background-color: lightseagreen;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-style: italic;
+}
+
+section.profile .quotation blockquote {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+section.profile .quotation cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/* ... Your existing CSS styles ... */
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Section styles */
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container p {
+    margin-bottom: 20px;
+}
+
+/* Animated slide-in from bottom effect */
+.slide-in {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Animated fade-in effect */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1.5s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animated typing effect */
+.typewriter {
+    overflow: hidden;
+    border-right: 0.15em solid #333; /* Adjust the cursor color */
+    white-space: nowrap;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333; /* Adjust the cursor color */
+    }
+}
+
+/* Animated slide-in from left effect */
+.slide-left {
+    opacity: 0;
+    transform: translateX(-30px);
+}
+
+.slide-left.active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Animated zoom-in effect */
+.zoom-in {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.zoom-in.active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+/* ... Your existing CSS styles ... */
+
+
+/* ... Your existing CSS styles ... */
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}/* Option 3 - Classic Style */
+
+#education {
+    text-align: center;
+    padding: 50px;
+}
+
+.degree {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.degree-info, .degree-photos {
+    width: 45%;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.degree-info {
+    text-align: left;
+}
+/* Add this CSS to center the images */
+.degree-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .degree-photos img {
+    max-width: 200px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+.degree-photos img:hover {
+    transform: scale(1.1);
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project-image img {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-description {
+    margin-top: 10px;
+}
+
+.project-link {
+    margin-top: 15px;
+}
